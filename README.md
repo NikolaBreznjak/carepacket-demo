@@ -6,7 +6,7 @@ Interactive product demo for **CarePacket** — a parent Care Notebook for speci
 
 ## Live demo
 
-After GitHub Pages is enabled: **https://nikolabreznjak.github.io/carepacket-demo/**
+**https://nikolabreznjak.github.io/carepacket-demo/**
 
 ## What's in the demo
 
