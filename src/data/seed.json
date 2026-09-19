@@ -1,0 +1,221 @@
+{
+  "child": {
+    "id": "child-alex",
+    "preferredName": "Alex",
+    "legalName": "Alex Rivera",
+    "ageBand": "7 years",
+    "dobDisplay": "2018-04 (age ~7)",
+    "sex": "Male",
+    "parentName": "Maya Rivera",
+    "parentEmail": "maya.rivera@example.com"
+  },
+  "diagnoses": [
+    {
+      "id": "dx-1",
+      "name": "Autism spectrum disorder",
+      "icd10": "F84.0",
+      "status": "active",
+      "onset": "2021-06",
+      "notes": "Level 2 support needs; diagnosed at Children's Developmental Clinic"
+    },
+    {
+      "id": "dx-2",
+      "name": "Speech-language delay",
+      "icd10": "F80.9",
+      "status": "active",
+      "onset": "2020-11",
+      "notes": "Receptive stronger than expressive"
+    },
+    {
+      "id": "dx-3",
+      "name": "Sensory processing differences",
+      "icd10": null,
+      "status": "active",
+      "onset": "2021-08",
+      "notes": "Sound sensitivity; seeks deep pressure"
+    }
+  ],
+  "medications": [
+    {
+      "id": "med-1",
+      "name": "Melatonin",
+      "dose": "3 mg",
+      "route": "PO",
+      "frequency": "QHS",
+      "prescriber": "Dr. Patel (Peds)",
+      "indication": "Sleep onset",
+      "status": "active",
+      "source": "parent"
+    },
+    {
+      "id": "med-2",
+      "name": "Guanfacine ER",
+      "dose": "1 mg",
+      "route": "PO",
+      "frequency": "QHS",
+      "prescriber": "Dr. Chen (DBP)",
+      "indication": "Hyperactivity / impulsivity",
+      "status": "active",
+      "source": "provider_portal"
+    }
+  ],
+  "allergies": [
+    {
+      "id": "alg-1",
+      "allergen": "Amoxicillin",
+      "reaction": "Hives",
+      "severity": "moderate",
+      "status": "active"
+    },
+    {
+      "id": "alg-2",
+      "allergen": "Cashews",
+      "reaction": "Oral itching",
+      "severity": "mild",
+      "status": "active"
+    }
+  ],
+  "therapies": [
+    {
+      "id": "th-1",
+      "type": "ABA",
+      "providerName": "BrightPath ABA",
+      "frequency": "20 hrs/week",
+      "goalsSummary": "Functional communication, reducing elopement risk, daily living skills",
+      "status": "active"
+    },
+    {
+      "id": "th-2",
+      "type": "Speech therapy",
+      "providerName": "Valley Speech",
+      "frequency": "2×/week",
+      "goalsSummary": "Expand AAC + spoken 2–3 word phrases",
+      "status": "active"
+    },
+    {
+      "id": "th-3",
+      "type": "Occupational therapy",
+      "providerName": "Kids OT Collective",
+      "frequency": "1×/week",
+      "goalsSummary": "Sensory regulation, handwriting readiness",
+      "status": "active"
+    }
+  ],
+  "devices": [],
+  "education": {
+    "planType": "IEP",
+    "classification": "Autism",
+    "accommodations": "Quiet testing space; visual schedules; sensory breaks 2×/day; 1:1 aide during transitions; AAC device allowed in all settings",
+    "lastReviewDate": "2026-03-12",
+    "school": "Riverside Elementary"
+  },
+  "emergencyCard": {
+    "oneLiners": ["ASD (Level 2)", "Speech delay", "Sensory (sound)"],
+    "criticalAllergies": ["Amoxicillin → hives"],
+    "criticalMeds": ["Guanfacine ER 1 mg QHS", "Melatonin 3 mg QHS"],
+    "contacts": [
+      { "name": "Maya Rivera (Mom)", "phone": "(555) 014-2201" },
+      { "name": "Luis Rivera (Dad)", "phone": "(555) 014-8832" }
+    ],
+    "hospitalPreference": "Children's Hospital East — ED",
+    "notes": "May elope when overwhelmed. Prefers calm voice, no sudden touch. AAC tablet in backpack."
+  },
+  "preferredCommunication": {
+    "sensoryNotes": "Covers ears with loud HVAC / cafeteria. Seeks weighted lap pad.",
+    "howToTalk": "Short sentences. Offer two choices. Wait 10 seconds before repeating.",
+    "triggers": "Unexpected schedule changes; fluorescent flicker; being rushed",
+    "strategies": "First-Then board; deep-pressure hug from known adult; noise-reducing headphones"
+  },
+  "careTeam": [
+    {
+      "id": "ct-1",
+      "name": "Dr. Priya Chen",
+      "role": "Developmental-behavioral pediatrics",
+      "org": "Bayview DBP Clinic",
+      "phone": "(555) 200-1100",
+      "email": "p.chen@bayview-dbp.example"
+    },
+    {
+      "id": "ct-2",
+      "name": "Ms. Jordan Lee, CCC-SLP",
+      "role": "Speech-language pathologist",
+      "org": "Valley Speech",
+      "phone": "(555) 200-4400",
+      "email": "j.lee@valleyspeech.example"
+    },
+    {
+      "id": "ct-3",
+      "name": "Nurse Kim Alvarez",
+      "role": "School nurse",
+      "org": "Riverside Elementary",
+      "phone": "(555) 200-7700",
+      "email": "kalvarez@riverside-esd.example"
+    }
+  ],
+  "grants": [
+    {
+      "id": "grant-1",
+      "templateKey": "specialist_intake",
+      "templateName": "New Specialist Intake",
+      "recipient": "Bayview DBP Clinic",
+      "granteeOrgId": "org-bayview",
+      "status": "active",
+      "expiresAt": "2026-10-19",
+      "createdAt": "2026-09-12",
+      "token": "demo-pkt-bayview-alex",
+      "viewCount": 3
+    },
+    {
+      "id": "grant-2",
+      "templateKey": "school_ihp",
+      "templateName": "School Nurse IHP",
+      "recipient": "Riverside Elementary Nurse",
+      "granteeOrgId": null,
+      "status": "active",
+      "expiresAt": "2026-12-01",
+      "createdAt": "2026-08-20",
+      "token": "demo-pkt-school-alex",
+      "viewCount": 1
+    }
+  ],
+  "timeline": [
+    {
+      "id": "ev-1",
+      "type": "note_back",
+      "title": "Visit note from Bayview DBP",
+      "body": "Follow-up for sleep and hyperactivity. Guanfacine ER continued at 1 mg QHS. Parent reports improved bedtime routine. Next visit 3 months.",
+      "attribution": {
+        "org": "Bayview DBP Clinic",
+        "clinician": "Dr. Priya Chen",
+        "at": "2026-09-10T15:42:00-07:00"
+      },
+      "createdAt": "2026-09-10T15:42:00-07:00"
+    },
+    {
+      "id": "ev-2",
+      "type": "grant_created",
+      "title": "Shared New Specialist Intake",
+      "body": "Packet shared with Bayview DBP Clinic · expires 2026-10-19",
+      "attribution": null,
+      "createdAt": "2026-09-12T09:15:00-07:00"
+    }
+  ],
+  "providerOrg": {
+    "id": "org-bayview",
+    "name": "Bayview DBP Clinic",
+    "role": "Clinician",
+    "clinicianName": "Dr. Priya Chen",
+    "baaStatus": "signed"
+  },
+  "roster": [
+    {
+      "childId": "child-alex",
+      "displayName": "Alex Rivera",
+      "ageBand": "7 years",
+      "grantId": "grant-1",
+      "packetLabel": "New Specialist Intake",
+      "lastUpdated": "2026-09-12",
+      "status": "active"
+    }
+  ]
+}
